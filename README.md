@@ -9,7 +9,7 @@
     <img align="center" src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
 </p>
 
-Selenium driven web-scraping tool capable of scraping multiple Yahoo Finance stock pages and generating a csv file containing various detailed statistics of each stock.
+Selenium driven web-scraping tool that scrapes the top 30 trending tickers from yahoo finance and generates a csv file containing various detailed statistics of each stock.
 
 ## Usage
 First run...
@@ -19,7 +19,6 @@ pip install selenium webdriver-manager
 
 Then you can run the following command, which should generate a .csv file containing information about the stocks you provide as command line arguments.
 ```
-python scraper.py TSLA AMZN GOOG
+python scraper.py
 ```
-(_The script may take a while to finish working depending on the number stocks you want to scrape_)</br></br>
 
