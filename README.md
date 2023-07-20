@@ -14,11 +14,18 @@ Selenium driven web-scraping tool that scrapes the top 30 trending tickers from 
 ## Usage
 First run...
 ```bash
-pip install selenium webdriver-manager
+pip install -r requirements.txt
 ```
 
 Then you can run the following command, which should generate a .csv file containing information about the stocks you provide as command line arguments.
 ```
 python scraper.py
+```
+
+## Contributing
+After adding packages, run the following to update the `requirements.txt` file
+```
+pip install pipreqs 
+pipreqs --force
 ```
 
