@@ -64,34 +64,3 @@ data_map = parse_csv('stocks.csv')
 #  }, ...
 #}
 ```
-<h1 align="center">
-  <strong>
-      Yahoo Finance Stock Scraper
-  </strong>
-</h1>
-
-<p align="center">
-    <img align="center" src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white"/>
-    <img align="center" src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
-</p>
-
-Selenium driven web-scraping tool that scrapes the top 30 trending tickers from yahoo finance and generates a csv file containing various detailed statistics of each stock.
-
-## Usage
-First run...
-```bash
-pip install -r requirements.txt
-```
-
-Then you can run the following command, which should generate a .csv file containing information about the stocks you provide as command line arguments.
-```
-python scraper.py
-```
-
-## Contributing
-After adding packages, run the following to update the `requirements.txt` file
-```
-pip install pipreqs 
-pipreqs --force
-```
-
