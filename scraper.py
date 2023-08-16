@@ -4,19 +4,9 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from tqdm import tqdm, trange
-import requests
+from tqdm import tqdm
 
-import sys
 import csv
-
-# if there are no CLI parameters
-# if len(sys.argv) <= 1:
-#     print('Ticker symbol CLI argument missing!')
-#     sys.exit(2)
-
-# read the ticker from the CLI argument
-# ticker_symbol = sys.argv[1]
            
 # Scrape the stock page for data
 def scrape_stock(driver, ticker_symbol):
